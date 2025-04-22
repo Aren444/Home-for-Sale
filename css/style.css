@@ -1,0 +1,194 @@
+body {
+  background-color: rgba(231, 237, 244, 0.793);
+  font-family: Verdana, Arial, sans-serif;
+  color: rgb(95, 9, 182);
+}
+
+.whole-container {
+  padding: 1em;
+}
+
+header {
+  font-size: 1.2em;
+  color: rgb(37, 75, 170);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(37, 75, 170);
+  border: 2px solid rgb(202, 138, 10);
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.5em;
+  max-width: 100%;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: rgb(37, 75, 170);
+  text-align: center;
+  font-size: 1.2em;
+}
+
+p {
+  color: rgb(8, 113, 66);
+  font-size: 1em;
+  line-height: 1.6em;
+  padding: 1em;
+  text-align: left;
+}
+
+main {
+  font-size: 1em;
+  margin: 1em;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.nav {
+  background-color: rgba(245, 206, 149, 0.894);
+  text-align: center;
+}
+
+#navul {
+  list-style-type: none;
+  padding: 10px;
+  display: block;
+}
+
+.pad {
+  padding: 1.5em;
+}
+
+footer {
+  font-size: 1em;
+  color: rgb(37, 75, 170);
+  text-align: center;
+}
+
+.rights {
+  text-align: right;
+  font-size: 0.8em;
+}
+
+hr {
+  height: 2px;
+}
+
+.table {
+  width: 100%;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 1em;
+  margin: 1em auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+.email-link {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.pics {
+  text-align: center;
+}
+
+.galpics {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  padding: 1em;
+  width: 100%;
+}
+
+.img-wrapper,
+.imgwrap,
+.infopics {
+  width: 100%;
+  max-width: 100%;
+  margin: 0.5em 0;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.room-text {
+  margin-top: 0.5em;
+  color: rgb(8, 113, 66);
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 0;
+}
+
+
+/* ===== Desktop & Tablet Styles (min-width: 601px) ===== */
+
+@media (min-width: 601px) {
+  .whole-container {
+    padding: 80px;
+  }
+
+  .infopics {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2em;
+    padding: 18px;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: 1.2em;
+    padding: 40px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  main {
+    font-size: 1.2em;
+    margin: 20px 0;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .galpics {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em;
+  }
+
+  .img-wrapper {
+    width: 45%;
+  }
+
+  .table {
+    width: 75%;
+    font-size: 1em;
+    padding: 30px;
+    margin: 20px auto;
+  }
+
+  footer {
+    font-size: 1.2em;
+  }
+}
